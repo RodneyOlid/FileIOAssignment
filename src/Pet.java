@@ -19,11 +19,11 @@ public class Pet {
         total++;
     }
     public static void main(String[] args) throws IOException {
-        File petFile = new File("C:/Users/Rodney Olid/Documents/IS247TextFiles/petFile.txt");
+        File petFile = new File("C:/Users/rodne/OneDrive/Documents/IS247TextFiles/petFile.txt");
         PrintWriter out = new PrintWriter(petFile);
         out.println("Gracie " + 3 + " hamster");
-        out.println("Boba " +  3 + " hamster");
-        out.println("Pineapple " +  5 +  " beardeddragon");
+        out.println("Boba " +  4 + " hamster");
+        out.println("Pineapple " +  6 +  " beardeddragon");
         out.println("Caramel " + 1 + " hamster");
         out.close();
     }
